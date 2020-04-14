@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dia4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_main_centerText">Let us know more about you, so we can design a premium plan to help you achieve your goals</string>
+    <string name="ready_doubleText"><b>$2,33/Semana</b>\nSubscripción de un mes</string>
+</resources>

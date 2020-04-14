@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExercisePlanFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:text="I want to start my exercise plan from:"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="30dp"
+        android:textAllCaps="true"/>
+    <Button
+        android:id="@+id/btn_backToType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back to exercise type"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:textSize="20sp"
+        android:background="@drawable/btn_custom_style"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btn_goToReady"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_custom_style"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content"
+        android:text="Ready?! Go!"/>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseTypeFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Training plan"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:fontFamily="@font/roboto_condensed_regular"/>
+
+    <Button
+        android:id="@+id/btn_backToBegin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:textSize="20sp"
+        android:background="@drawable/btn_custom_style"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btn_goToPlan"
+        android:layout_marginHorizontal="10dp"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to your exercise plan"
+        android:background="@drawable/btn_custom_style"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
