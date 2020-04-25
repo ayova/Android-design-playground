@@ -1,0 +1,2 @@
+rootProject.name='WhatsappTabLayout'
+include ':app'

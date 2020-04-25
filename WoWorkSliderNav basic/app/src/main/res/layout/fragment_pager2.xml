@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PagerFragment2">
+    <ImageView
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:maxHeight="800dp"
+        android:id="@+id/fragment_pager_image"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/slide_three"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:id="@+id/fragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:text="gana dinero"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:text="tendrás clientes por todas partes del mundo"
+        android:textAlignment="center"
+        android:fontFamily="@font/opensansregular"
+        android:textSize="14sp"/>
+    <Button
+        android:id="@+id/btn_fragment2_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="continuar"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#1c285e"
+        android:layout_marginVertical="12dp"/>
+
+</LinearLayout>

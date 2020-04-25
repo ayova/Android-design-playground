@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".PagerFragment1">
+
+    <ImageView
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:maxHeight="800dp"
+        android:id="@+id/fragment_pager_image"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/slide_two"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:id="@+id/fragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:text="vive aventuras"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:text="explora cientos de lugares sabiendo que siempre tendrás trabajo"
+        android:textAlignment="center"
+        android:fontFamily="@font/opensansregular"
+        android:textSize="14dp"/>
+
+</LinearLayout>
