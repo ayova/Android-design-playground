@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Mi perfil" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Mensajes" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Historial" />
+    </group>
+    <item android:title="Clases de conducir">
+        <menu>
+            <item
+                android:id="@+id/nav_book"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="Reservar" />
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="Autoescuela" />
+        </menu>
+    </item>
+    <item android:title="Más información">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="Ayuda" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+</menu>
